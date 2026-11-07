@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.crashdrive.mobile'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.crashdrive.mobile'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '0.1'
+    }
+}
